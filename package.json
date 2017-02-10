@@ -1,5 +1,5 @@
 {
-  "name": "passport-twitter",
+  "name": "@joewitt99/passport-twitter",
   "version": "1.0.4",
   "description": "Twitter authentication strategy for Passport.",
   "keywords": [
@@ -17,10 +17,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/jaredhanson/passport-twitter.git"
+    "url": "git://github.com/joewitt99/passport-twitter.git"
   },
   "bugs": {
-    "url": "http://github.com/jaredhanson/passport-twitter/issues"
+    "url": "http://github.com/joewitt99/passport-twitter/issues"
   },
   "license": "MIT",
   "licenses": [
@@ -31,7 +31,7 @@
   ],
   "main": "./lib",
   "dependencies": {
-    "passport-oauth1": "1.x.x",
+    "@joewitt99/passport-dynamicoauth1": "1.x.x",
     "xtraverse": "0.1.x"
   },
   "devDependencies": {
